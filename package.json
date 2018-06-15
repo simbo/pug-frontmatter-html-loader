@@ -1,0 +1,60 @@
+{
+  "name": "pug-frontmatter-html-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader for rendering pug to html with frontmatter support.",
+  "author": "Simon Lepel <simbo@simbo.de> (http://simbo.de)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simbo/pug-frontmatter-html-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simbo/pug-frontmatter-html-loader/issues"
+  },
+  "homepage": "https://github.com/simbo/pug-frontmatter-html-loader",
+  "keywords": [
+    "pug",
+    "frontmatter",
+    "template",
+    "html",
+    "loader",
+    "webpack"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "watch": "npm run build -- --watch",
+    "test": "jest --detectOpenHandles"
+  },
+  "main": "dist/index.js",
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/node_modules/**"
+    ]
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "peerDependencies": {
+    "pug": "^2.0.3"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "jest": "^23.1.0",
+    "loader-utils": "^1.1.0",
+    "memory-fs": "^0.4.1",
+    "pug": "^2.0.3",
+    "raw-loader": "^0.5.1",
+    "schema-utils": "^0.4.5",
+    "webpack": "^4.12.0"
+  }
+}
