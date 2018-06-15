@@ -23,7 +23,8 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "watch": "npm run build -- --watch",
-    "test": "jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "main": "dist/index.js",
   "jest": {
@@ -49,6 +50,7 @@
     "@babel/preset-env": "^7.0.0-beta.51",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
+    "coveralls": "^3.0.1",
     "jest": "^23.1.0",
     "loader-utils": "^1.1.0",
     "memory-fs": "^0.4.1",
