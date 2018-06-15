@@ -15,6 +15,7 @@ jobs:
       api_key: "${NPM_API_KEY}"
       on:
         tags: true
+      skip_cleanup: true
 env:
   global:
     secure: S3S+4itqT0FDlAiegFcxcoPfG25S6qKie/YfvTK03tXNNnU8bzU67yoO6vUSvQNp5QmwZsgpavx9nrsjE0mMsXk8d8ZQFx9Rtc2G/dpeVB8/seskklqM8Rzo3fHRUQqh/zbwO4P6YSbLTya7BIG8QwCymQJd7Nw5HqB4cO2A0bUbEAo6pWB5yN1abR0VYNLgSSwAbx60jKDcSFXdQ/hVfEuBXJLUm14AVauIJhVOuf3R7gFv62oSGMt0iJz1Ku3poQK+ffhOvd35V1kfch91XH+8b/6rf+mv25Y7DrKuMESgqsbKrGcTu84nWIIlDzyYZXtYYJSecNa1yoFtXDjl5vugtsIfZNFn8dql9uSp0daxYVLqEAXXkxvZzhCd00RpcrNAafY3oe9wRBplHByVlRfzYlv+1DI7cE+UIyQf5K5UigcrguFXFERNlp7KO4tDXeP0PJlxson/F68mxAdifi0R5OOycFsknkfPJO/+Ym3DwCK9NE449VwWtVyan/97zTYHHsnGc0ELzaxAD8k/yh7dHXgNos+ozNFEr3r3jEhXAK6pzQIIrVlM4Qe9qsnnziVwWPTuPZywE8SCMRWN79M2ENyPGc3piXKpsf20lUESPp3zU0xaKqex+NzmPDhPXXz2qOnDZEUvpk85q82PB7VFKftpeG3FOp+iYzKkcOw=
