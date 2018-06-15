@@ -36,13 +36,11 @@
     ]
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=6"
   },
   "peerDependencies": {
+    "gray-matter": "^4.0.1",
     "pug": "^2.0.3"
-  },
-  "dependencies": {
-    "gray-matter": "^4.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.51",
@@ -51,6 +49,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
     "coveralls": "^3.0.1",
+    "gray-matter": "^4.0.1",
     "jest": "^23.1.0",
     "loader-utils": "^1.1.0",
     "memory-fs": "^0.4.1",
