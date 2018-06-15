@@ -7,6 +7,7 @@ pug-frontmatter-html-loader
 
 [![npm package version](https://img.shields.io/npm/v/pug-frontmatter-html-loader.svg?style=flat-square)](https://www.npmjs.com/package/pug-frontmatter-html-loader)
 [![Travis CI build status](https://travis-ci.org/simbo/pug-frontmatter-html-loader.svg?branch=master)](https://travis-ci.org/simbo/pug-frontmatter-html-loader/builds)
+[![Coverage Status](https://coveralls.io/repos/github/simbo/pug-frontmatter-html-loader/badge.svg?branch=master)](https://coveralls.io/github/simbo/pug-frontmatter-html-loader?branch=master)
 
 
 About
