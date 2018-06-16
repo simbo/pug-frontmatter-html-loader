@@ -9,6 +9,7 @@ jobs:
   - stage: release
     node_js: '8'
     after_script: npm run coveralls
+    before_deploy: npm run build
     deploy:
     - provider: npm
       email: simbo@simbo.de
